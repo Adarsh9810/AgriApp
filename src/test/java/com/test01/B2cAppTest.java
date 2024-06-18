@@ -19,5 +19,6 @@ public class B2cAppTest {
 	{
 		b2cApp myapp=new b2cApp();
 		Assert.assertEquals(1,myapp.userLogin("abc","abc@1234"));
+		System.out.println("testing");
 	}
 }
